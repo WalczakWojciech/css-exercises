@@ -1,5 +1,5 @@
 .odd {
-    background-color: #ffc0cb;
+    background-color: rgb(255,167,167);
     font-family: "Verdana", "DejaVu Sans", sans-serif;
 }
 .three {
@@ -10,7 +10,7 @@
     font-size: 36px;
 }
 #fourth-number {
-    background-color: #adff2f;
+    background-color: hsl(120, 100%,75%);
     font-size: 24px;
     font-weight: bold;
 }
