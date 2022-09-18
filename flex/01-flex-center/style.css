@@ -1,0 +1,17 @@
+.container {
+  display: flex;  
+  justify-content: center;
+  align-items: center;
+  border: 5px solid rgb(13, 13, 178);
+  background-color: rgb(91, 157, 233);
+  height: 300px;
+  width: 400px;
+}
+.item {
+  border: 5px solid rgb(141, 4, 4);
+  background-color:plum;
+  height: 70px;
+  width: 70px;
+  font-weight: bold;
+  text-align: center;
+}
