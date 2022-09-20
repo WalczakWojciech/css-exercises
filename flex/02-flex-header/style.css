@@ -29,4 +29,7 @@ li {
 .right-links {
   margin-left: auto;
 }
+a {
+  text-decoration: none;
+}
 

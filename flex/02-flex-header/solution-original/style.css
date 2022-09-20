@@ -1,0 +1,32 @@
+body {
+  font-family: monospace;
+}
+.header {
+  display: flex;
+  align-items:center; 
+  justify-content: center;
+  background-color: pink;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 28px;
+  color: red;
+  background-color: white;
+  margin: auto;
+  padding: 20px;
+}
+a {
+  color: blue;
+  text-decoration-line: none;
+  background-color: white;
+  padding: 5px;
+  margin: 5px;
+}
