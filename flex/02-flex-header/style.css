@@ -1,0 +1,32 @@
+body {
+  font-family:'Times New Roman', Times, serif;
+}
+
+.container {
+  display: flex;
+  align-items: center;  
+  background-color: rgb(240, 197, 240);
+  padding: 5px 0px;
+}
+
+li {
+  font-weight: bold;
+  background-color: white;
+  color: blue;
+  padding: 8px 4px;
+  margin: 5px;
+  list-style-type: none;
+}
+
+.logo {
+  color: red;
+  font-weight: bolder;
+  font-size: xx-large;
+  margin-left: auto;
+  padding: 10px;
+}
+
+.right-links {
+  margin-left: auto;
+}
+
