@@ -1,0 +1,60 @@
+body {
+  font-family: 'Times New Roman', Times, serif;
+}
+.header {
+  display: flex;
+  align-items: center; 
+  margin: 8px;
+  color: rgb(115, 17, 208);
+  margin: auto;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  margin: 0;
+  padding: 0;
+}
+
+.logo {
+  font-size: 50px;
+  color: rgb(159, 106, 209);
+  margin: 8px;
+
+  font-weight: 1000;
+  font-style: italic;
+}
+
+a {
+  color: rgb(159, 106, 209);
+  text-decoration-line: none;
+  margin: 8px;
+}
+
+button.notify {
+  border-radius: 8px;
+  background-color: rgb(159, 106, 209);
+  padding: 8px 30px;
+  border: 0;
+  color: white;
+  font-weight: bold;
+  margin: 8px;
+}
+
+button.rounded {
+  border-radius: 50%;
+  background-color: rgb(159, 106, 209);
+  border: 0;
+  height: 50px;
+  width: 50px;
+  margin: 8px;
+}
+
+.under {
+  height: 30px;
+  background-color: whitesmoke;
+}
+.empty {
+  margin: auto;
+}
