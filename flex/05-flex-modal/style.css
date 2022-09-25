@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+html, body {
+  height: 100%;
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  margin: 0;
+  background: #aaa;
+  color: #333;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.modal {
+    width: 480px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+    padding: 16px;
+    gap: 16px;
+    display: flex;
+}
+
+.icon {
+    background-color: lavender;
+    border-radius: 50%;
+    color: royalblue;
+    font-weight: 700;
+    font-size: 26px;
+    width: 42px;
+    height: 42px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-shrink: 0;
+}
+
+.close-button {
+    background-color: lavender;
+    border-radius: 50%;
+    color: #888;
+    font-weight: 400;
+    font-size: 16px;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+}
+
+.header {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.text {
+    margin-bottom: 16px;
+}
+
+button {
+    border-radius: 8px;
+    padding: 8px 16px;
+}
+
+button.continue { 
+    background: royalblue;
+    border: 1px solid royalblue;
+    color: white;  
+}
+
+button.cancel { 
+    background: white;
+    border: 1px solid #ddd;
+    color: royalblue;
+}
